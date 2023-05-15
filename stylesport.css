@@ -1,0 +1,143 @@
+@media only screen and (min-width: 320px){
+    Estilos para la sección principal de la página 
+    main{
+      width: 80%;
+      margin:0 auto;
+    }
+    .logo{
+        max-width: 100%;
+        height: auto;
+    }
+    .encabezado ul{
+        padding: 0;
+    }
+    .encabezado ul li{
+        margin-right: -10px;
+        flex-wrap: wrap;
+        text-align:center;
+        width: 33%;
+    }
+} 
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{ 
+
+    /*color de fondo de la pagina*/
+    background-color:rgb(250, 229, 221);
+    background-size:cover;
+    border: rgb(255, 0, 153) solid;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-family: 'Great Vibes', cursive;
+    color:maroon;
+    font-size:80px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    
+}
+.logo{
+    width:150px;
+    height:150px;
+    border-radius:5px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.encabezado{
+    display: flex;
+    width: auto;
+    justify-content: space-evenly;
+    gap:50px;
+
+    
+}
+.prueba {
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+}
+
+.contenedor {
+   
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+}
+.foto{
+    width: 70%;
+    box-shadow: 0px 3px 5px rgb(15, 15,15, .5);
+    border-radius: 100px;
+    
+}
+
+ul{
+    width: 1000px;
+    margin-top: -110px;
+    margin-left: 195px;
+    list-style: none;
+}
+
+ul li a{
+    color:maroon;
+    text-decoration: none;
+    font-size:larger;
+    font-family: 'Noto Serif', serif;
+}
+a:hover{
+    color:rosybrown;
+}
+#section1{
+    display: flex;
+    gap: 19px;
+    padding: 90px;
+    
+    
+}
+h4{
+    font-family: 'Noto Serif', serif;
+}
+#titulo{
+    padding: 60px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 35px;
+    color:maroon;
+}
+.foto{
+    width:350px;
+    height: 350px;
+    gap: 50px;
+    border-radius: 200px;
+    justify-content:right;
+}
+.articulo{
+    padding: 35px;
+}
+.parrafo{
+    border: rgb(255, 0, 153) solid;
+    padding: 25px;
+    font-family: 'Noto Serif', serif;
+}
+.h2{
+    font-family: 'Great Vibes', cursive;
+    color:maroon;
+    font-size: 30px;
+}
+#footer{
+    font-family: 'Noto Serif', serif;
+    color:rgb(153, 110, 110);
+    font-size: smaller;
+    display: flex;
+    justify-content: center;
+}
